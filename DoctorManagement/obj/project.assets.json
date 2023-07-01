@@ -3865,11 +3865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\API Application\\MedWinCares\\DoctorManagement\\DoctorManagement.csproj",
+      "projectUniqueName": "E:\\Backend\\MedWinCares\\DoctorManagement\\DoctorManagement.csproj",
       "projectName": "DoctorManagement",
-      "projectPath": "E:\\API Application\\MedWinCares\\DoctorManagement\\DoctorManagement.csproj",
+      "projectPath": "E:\\Backend\\MedWinCares\\DoctorManagement\\DoctorManagement.csproj",
       "packagesPath": "C:\\Users\\kanya\\.nuget\\packages\\",
-      "outputPath": "E:\\API Application\\MedWinCares\\DoctorManagement\\obj\\",
+      "outputPath": "E:\\Backend\\MedWinCares\\DoctorManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3886,8 +3886,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\API Application\\ModelLibrary\\ModelLibrary\\MedWinCares.Data.csproj": {
-              "projectPath": "E:\\API Application\\ModelLibrary\\ModelLibrary\\MedWinCares.Data.csproj"
+            "E:\\Backend\\ModelLibrary\\ModelLibrary\\MedWinCares.Data.csproj": {
+              "projectPath": "E:\\Backend\\ModelLibrary\\ModelLibrary\\MedWinCares.Data.csproj"
             }
           }
         }

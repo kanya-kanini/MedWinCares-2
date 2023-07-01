@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedWinCares.Data", "..\Mode
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorManagement", "DoctorManagement\DoctorManagement.csproj", "{C4D8B263-65B0-4B96-8EA5-93C98D911079}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientManagement", "Patients\PatientManagement.csproj", "{F9BFF37F-C8CB-4CDB-AE06-4C7D660FE1CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C4D8B263-65B0-4B96-8EA5-93C98D911079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D8B263-65B0-4B96-8EA5-93C98D911079}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D8B263-65B0-4B96-8EA5-93C98D911079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BFF37F-C8CB-4CDB-AE06-4C7D660FE1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BFF37F-C8CB-4CDB-AE06-4C7D660FE1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BFF37F-C8CB-4CDB-AE06-4C7D660FE1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BFF37F-C8CB-4CDB-AE06-4C7D660FE1CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

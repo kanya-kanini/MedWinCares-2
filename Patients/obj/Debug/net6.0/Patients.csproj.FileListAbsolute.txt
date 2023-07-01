@@ -1,0 +1,184 @@
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\appsettings.json
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Patients.exe
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Patients.deps.json
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Patients.runtimeconfig.json
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Patients.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Patients.pdb
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Models.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Models.pdb
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.csproj.AssemblyReference.cache
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.AssemblyInfoInputs.cache
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.AssemblyInfo.cs
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.csproj.CoreCompileInputs.cache
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\staticwebassets\msbuild.Patients.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\staticwebassets\msbuild.build.Patients.props
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Patients.props
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Patients.props
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\scopedcss\bundle\Patients.styles.css
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.csproj.CopyComplete
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\refint\Patients.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.pdb
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\Patients.genruntimeconfig.cache
+C:\Users\Suchitra\source\repos\Healthcare\Patients\obj\Debug\net6.0\ref\Patients.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Suchitra\source\repos\Healthcare\Patients\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.csproj.AssemblyReference.cache
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.GeneratedMSBuildEditorConfig.editorconfig
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.AssemblyInfoInputs.cache
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.AssemblyInfo.cs
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.csproj.CoreCompileInputs.cache
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.MvcApplicationPartsAssemblyInfo.cs
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.MvcApplicationPartsAssemblyInfo.cache
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\refint\Patients.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.pdb
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\appsettings.Development.json
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\appsettings.json
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Patients.exe
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Patients.deps.json
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Patients.runtimeconfig.json
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Patients.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Patients.pdb
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Azure.Core.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Azure.Identity.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\BCrypt.Net-Next.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Humanizer.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.CodeDom.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.Memory.Data.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.Text.Json.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\ModelLibrary.dll
+E:\api apps\FortisHospitials\FortisHospitals\Patients\bin\Debug\net6.0\ModelLibrary.pdb
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\staticwebassets\msbuild.Patients.Microsoft.AspNetCore.StaticWebAssets.props
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\staticwebassets\msbuild.build.Patients.props
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Patients.props
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Patients.props
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\staticwebassets.pack.json
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\staticwebassets.build.json
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\staticwebassets.development.json
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\scopedcss\bundle\Patients.styles.css
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.csproj.CopyComplete
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\Patients.genruntimeconfig.cache
+E:\api apps\FortisHospitials\FortisHospitals\Patients\obj\Debug\net6.0\ref\Patients.dll

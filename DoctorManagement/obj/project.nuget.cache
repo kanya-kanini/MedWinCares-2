@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vixh3DLkn86MGVMBvvALstAfqFHPjwNfKi/gzm3BhgEYnp4p9PRn5qkDp91eTJ+/L4AsQrH6/zKJsffwkdlPQA==",
+  "dgSpecHash": "8n1OsthHUzetTfwrcqoPd7mPs9demFDCm20eH5JvDGP6DD+Y6rwGBdhWljmUtQu00J7JHrTTKqM2+oIJTuZSoQ==",
   "success": true,
-  "projectFilePath": "E:\\API Application\\MedWinCares\\DoctorManagement\\DoctorManagement.csproj",
+  "projectFilePath": "E:\\Backend\\MedWinCares\\DoctorManagement\\DoctorManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kanya\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kanya\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
