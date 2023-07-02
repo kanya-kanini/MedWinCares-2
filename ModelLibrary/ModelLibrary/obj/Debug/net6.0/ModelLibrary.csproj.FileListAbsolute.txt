@@ -1,0 +1,14 @@
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\bin\Debug\net6.0\ModelLibrary.deps.json
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\bin\Debug\net6.0\ModelLibrary.runtimeconfig.json
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\bin\Debug\net6.0\ModelLibrary.dll
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\bin\Debug\net6.0\ModelLibrary.pdb
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\obj\Debug\net6.0\ModelLibrary.csproj.AssemblyReference.cache
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\obj\Debug\net6.0\ModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\obj\Debug\net6.0\ModelLibrary.AssemblyInfoInputs.cache
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\obj\Debug\net6.0\ModelLibrary.AssemblyInfo.cs
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\obj\Debug\net6.0\ModelLibrary.csproj.CoreCompileInputs.cache
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\obj\Debug\net6.0\ModelLibrary.dll
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\obj\Debug\net6.0\refint\ModelLibrary.dll
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\obj\Debug\net6.0\ModelLibrary.pdb
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\obj\Debug\net6.0\ModelLibrary.genruntimeconfig.cache
+E:\api apps\FortisHospitials\FortisHospitals\ModelLibrary\obj\Debug\net6.0\ref\ModelLibrary.dll
