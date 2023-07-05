@@ -70,5 +70,9 @@ namespace MedicAppointment.Services
         {
             await _appointmentRepository.DeleteAppointment(appointmentId);
         }
+        public async Task<List<Appoinment>> GetAppointmentsByUsername(string username)
+        {
+            return await _appointmentRepository.GetAppointmentsByUsername(username);
+        }
     }
 }

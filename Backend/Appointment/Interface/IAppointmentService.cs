@@ -13,5 +13,6 @@ namespace MedicAppointment.Interface
         Task<Appoinment> GetAppointment(int appointmentId);
         Task<List<Appoinment>> GetAllAppointments();
         Task DeleteAppointment(int appointmentId);
+        Task<List<Appoinment>> GetAppointmentsByUsername(string username);
     }
 }

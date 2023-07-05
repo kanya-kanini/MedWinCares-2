@@ -29,6 +29,13 @@ namespace MedicAppointment.Controllers
             return NoContent();
         }
 
+        [HttpGet("doctor/{username}")]
+        public async Task<IActionResult> GetAppointmentsByUsername(string username)
+        {
+            var appointments = await _appointmentService.GetAppointmentsByUsername(username);
+            return Ok(appointments);
+        }
+
         [HttpPut("confirm")]
         public async Task<IActionResult> ConfirmAppointment(ConfirmAppointmentDTO confirmAppointmentDTO)
         {

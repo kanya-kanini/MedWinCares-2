@@ -1,4 +1,5 @@
 ﻿using DoctorManagement.Context;
+using DoctorManagement.DTO;
 using DoctorManagement.Interface;
 using MedWinCares.Data.Models;
 using MedWinCares.Data.Models.Helpers;
@@ -37,7 +38,7 @@ namespace DoctorManagement.Services
 
         public async Task<int> AddDoctorAsync([FromForm] Doctor doctor, string password)
         {
-            string path = Path.Combine(@"C:\Users\kanya\Desktop\Image", doctor.ImageName);
+            string path = Path.Combine(@"C:\Users\kanya\React\medcare\public\Img", doctor.ImageName);
             using (Stream stream = new FileStream(path, FileMode.Create))
             {
                 doctor.File.CopyTo(stream);
@@ -75,5 +76,7 @@ namespace DoctorManagement.Services
         {
             return PasswordHasher.VerifyPassword(password, hashedPassword);
         }
+
+        
     }
 }

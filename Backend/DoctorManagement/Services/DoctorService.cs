@@ -1,5 +1,7 @@
 ﻿using DoctorManagement.DTO;
 using DoctorManagement.Interface;
+using MedWinCares.Data.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DoctorManagement.Services
 {
@@ -29,5 +31,13 @@ namespace DoctorManagement.Services
 
             return doctorPatientDTOs;
         }
+        public async Task<DoctorwithActiveDTO> Activation(int id, DoctorwithActiveDTO DoctorwithActiveDTO)
+        {
+            Doctor doctor = await _doctorRepository.GetDoctorByIdAsync(id);
+            doctor.Status = DoctorwithActiveDTO.status;
+            await _doctorRepository.UpdateDoctorAsync(doctor);
+            return DoctorwithActiveDTO;
+        }
+        
     }
 }

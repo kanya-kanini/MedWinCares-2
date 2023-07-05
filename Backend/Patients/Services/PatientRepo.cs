@@ -1,6 +1,7 @@
 ﻿using MedWinCares.Data.Models;
 using MedWinCares.Data.Models.Helpers;
 using Microsoft.EntityFrameworkCore;
+using PatientApplication.DTO;
 using PatientManagement.Context;
 using PatientManagement.Interface;
 using System.Numerics;
@@ -43,13 +44,13 @@ namespace PatientManagement.Services
             return patient;
         }
 
-        public async Task<Patient> Post(Patient patient, string password)
+        public async Task<Patient> Post(Patiet_Password_DTO Patiet_Password_DTO)
         {
-            string hashedPassword = PasswordHasher.HashPassword(password);
-            patient.Patient_HashedPassword = hashedPassword;
-            context.Patients.Add(patient);
+            string hashedPassword = PasswordHasher.HashPassword(Patiet_Password_DTO.Password);
+            Patiet_Password_DTO.patient.Patient_HashedPassword = hashedPassword;
+            context.Patients.Add(Patiet_Password_DTO.patient);
             await context.SaveChangesAsync();
-            return patient;
+            return Patiet_Password_DTO.patient;
         }
 
         public async Task<Patient> Put(Patient patient, int id)

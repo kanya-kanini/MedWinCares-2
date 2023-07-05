@@ -1,5 +1,6 @@
 ﻿using MedWinCares.Data.Models;
 using Microsoft.AspNetCore.Mvc;
+using PatientApplication.DTO;
 using PatientManagement.DTO;
 using PatientManagement.Interface;
 
@@ -38,9 +39,9 @@ namespace PatientManagement.Controllers
             return await p.GetById(id);
         }
         [HttpPost]
-        public async Task<Patient> Add(Patient patient, string password)
+        public async Task<Patient> Add(Patiet_Password_DTO Patiet_Password_DTO)
         {
-            return await p.Post(patient, password);
+            return await p.Post(Patiet_Password_DTO);
         }
         [HttpPut]
         public async Task<Patient> Put(Patient patient, int id)
@@ -52,5 +53,6 @@ namespace PatientManagement.Controllers
         {
             return await p.DeleteById(id);
         }
+
     }
 }
