@@ -1,194 +1,159 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Form, Input, Button } from 'antd';
+import { Carousel, Row, Col, Card, Divider, Menu } from 'antd';
 
+
+
+const Navbar = () => {
+  return (
+    <Menu mode="horizontal" theme="dark">
+      <Menu.Item className="navbar-hospital">
+        <a href="/"className="nav-link">MEDWIN CARES</a>
+      </Menu.Item>
+      <Menu.Item>
+        <a href="/"className="nav-link">Home</a>
+      </Menu.Item>
+      <Menu.Item>
+        <a href="/patientreg"className="nav-link">Patient Registration</a>
+      </Menu.Item>
+      <Menu.Item>
+        <a href="/patients"className="nav-link">Doctors</a>
+      </Menu.Item>
+      <Menu.Item>
+        <a href="/appointments"className="nav-link">Appointments</a>
+      </Menu.Item>
+    </Menu>
+  );
+};
 const PatientRegistration = () => {
-  const [patientData, setPatientData] = useState({
-    patient: {
-      patient_Name: '',
-      age: 0,
-      gender: '',
-      bloodGroup: '',
-      patient_Address: '',
-      patient_Phone: 0,
-      patient_Email: '',
-      patient_UserName: '',
-      Patient_HashedPassword: 'pass',
-    },
-    password: '',
-  });
+  const [form] = Form.useForm();
+  const [loading, setLoading] = useState(false);
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setPatientData((prevState) => ({
-      ...prevState,
-      patient: {
-        ...prevState.patient,
-        [name]: value,
-      },
-    }));
-  };
-
-  const handlePasswordChange = (e) => {
-    setPatientData((prevState) => ({
-      ...prevState,
-      password: e.target.value,
-    }));
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const onFinish = async (values) => {
+    setLoading(true);
 
     try {
-      const response = await axios.post(
-        'https://localhost:7010/api/Patient',
-        patientData
-      );
+      const response = await axios.post('https://localhost:7010/api/Patient', values);
       console.log(response.data);
     } catch (error) {
       console.error(error);
     }
+
+    setLoading(false);
+    form.resetFields();
   };
 
   return (
-    <form onSubmit={handleSubmit} className="container">
-      <div className="row">
-        <div className="col-md-6">
-          <div className="form-group">
-            <label htmlFor="patient_Name">Name</label>
-            <input
-              type="text"
-              name="patient_Name"
-              value={patientData.patient.patient_Name}
-              onChange={handleInputChange}
-              className="form-control"
-              id="patient_Name"
-              placeholder="Name"
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="age">Age</label>
-            <input
-              type="number"
-              name="age"
-              value={patientData.patient.age}
-              onChange={handleInputChange}
-              className="form-control"
-              id="age"
-              placeholder="Age"
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="gender">Gender</label>
-            <input
-              type="text"
-              name="gender"
-              value={patientData.patient.gender}
-              onChange={handleInputChange}
-              className="form-control"
-              id="gender"
-              placeholder="Gender"
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="bloodGroup">Blood Group</label>
-            <input
-              type="text"
-              name="bloodGroup"
-              value={patientData.patient.bloodGroup}
-              onChange={handleInputChange}
-              className="form-control"
-              id="bloodGroup"
-              placeholder="Blood Group"
-              required
-            />
-          </div>
-        </div>
-        <div className="col-md-6">
-          <div className="form-group">
-            <label htmlFor="patient_Address">Address</label>
-            <input
-              type="text"
-              name="patient_Address"
-              value={patientData.patient.patient_Address}
-              onChange={handleInputChange}
-              className="form-control"
-              id="patient_Address"
-              placeholder="Address"
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="patient_Phone">Phone</label>
-            <input
-              type="number"
-              name="patient_Phone"
-              value={patientData.patient.patient_Phone}
-              onChange={handleInputChange}
-              className="form-control"
-              id="patient_Phone"
-              placeholder="Phone"
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="patient_Email">Email</label>
-            <input
-              type="email"
-              name="patient_Email"
-              value={patientData.patient.patient_Email}
-              onChange={handleInputChange}
-              className="form-control"
-              id="patient_Email"
-              placeholder="Email"
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="patient_UserName">Username</label>
-            <input
-              type="text"
-              name="patient_UserName"
-              value={patientData.patient.patient_UserName}
-              onChange={handleInputChange}
-              className="form-control"
-              id="patient_UserName"
-              placeholder="Username"
-              required
-            />
-          </div>
-        </div>
-      </div>
+    <>
+      <Navbar />
+      <div className="container">
+        <Form form={form} onFinish={onFinish} layout="vertical">
+          <Form.Item
+            label="Name"
+            name={['patient', 'patient_Name']}
+            rules={[{ required: true, message: 'Please enter the name' }]}
+          >
+            <Input placeholder="Name" />
+          </Form.Item>
 
-      <div className="row">
-        <div className="col-md-12">
-          <div className="form-group">
-            <label htmlFor="password">Password</label>
-            <input
-              type="password"
-              name="password"
-              value={patientData.password}
-              onChange={handlePasswordChange}
-              className="form-control"
-              id="password"
-              placeholder="Password"
-              required
-            />
-          </div>
-        </div>
-      </div>
+          <Form.Item
+            label="Age"
+            name={['patient', 'age']}
+            rules={[{ required: true, message: 'Please enter the age' }]}
+          >
+            <Input type="number" placeholder="Age" />
+          </Form.Item>
 
-      <div className="row">
-        <div className="col-md-12">
-          <button type="submit" className="btn btn-primary mt-3">
-            Add Patient
-          </button>
-        </div>
+          <Form.Item
+            label="Gender"
+            name={['patient', 'gender']}
+            rules={[{ required: true, message: 'Please enter the gender' }]}
+          >
+            <Input placeholder="Gender" />
+          </Form.Item>
+
+          <Form.Item
+            label="Blood Group"
+            name={['patient', 'bloodGroup']}
+            rules={[{ required: true, message: 'Please enter the blood group' }]}
+          >
+            <Input placeholder="Blood Group" />
+          </Form.Item>
+
+          <Form.Item
+            label="Address"
+            name={['patient', 'patient_Address']}
+            rules={[{ required: true, message: 'Please enter the address' }]}
+          >
+            <Input placeholder="Address" />
+          </Form.Item>
+
+          <Form.Item
+            label="Phone"
+            name={['patient', 'patient_Phone']}
+            rules={[{ required: true, message: 'Please enter the phone number' }]}
+          >
+            <Input type="number" placeholder="Phone" />
+          </Form.Item>
+
+          <Form.Item
+            label="Email"
+            name={['patient', 'patient_Email']}
+            rules={[
+              { required: true, message: 'Please enter the email' },
+              { type: 'email', message: 'Please enter a valid email' },
+            ]}
+          >
+            <Input placeholder="Email" />
+          </Form.Item>
+
+          <Form.Item
+            label="Username"
+            name={['patient', 'patient_UserName']}
+            rules={[{ required: true, message: 'Please enter the username' }]}
+          >
+            <Input placeholder="Username" />
+          </Form.Item>
+
+          <Form.Item
+            label="Password"
+            name="password"
+            rules={[{ required: true, message: 'Please enter the password' }]}
+          >
+            <Input.Password placeholder="Password" />
+          </Form.Item>
+
+          <Form.Item>
+            <Button type="primary" htmlType="submit" loading={loading}>
+              Register
+            </Button>
+          </Form.Item>
+        </Form>
       </div>
-    </form>
+      <style jsx>{`
+        .container {
+          max-width: 600px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+
+        .ant-form-item-label {
+          text-align: left;
+          margin-bottom: 6px;
+        }
+
+        .ant-input {
+          width: 100%;
+        }
+
+        .ant-btn {
+          width: 100%;
+        }
+      `}</style>
+    </>
   );
 };
+
 
 export default PatientRegistration;

@@ -1,4 +1,5 @@
 ﻿using MedWinCares.Data.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PatientApplication.DTO;
 using PatientManagement.DTO;
@@ -6,6 +7,7 @@ using PatientManagement.Interface;
 
 namespace PatientManagement.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class PatientController : ControllerBase

@@ -5,6 +5,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
+
 /* Navigation Styles */
 .nav {
   background-color: #4267B2;
@@ -48,6 +50,8 @@ padding: 20px;}
 /* Hero Section Styles */
 .hero-section {
   background-color: #F5F5F5;
+  background-image: url("https://t3.ftcdn.net/jpg/04/67/37/12/360_F_467371208_2cBvWthKecbY7PPW7rxmz99pKSkJPDPm.jpg");
+  background-size: cover;
   padding: 100px 0;
   text-align: center;
 }
@@ -156,14 +160,45 @@ padding: 20px;}
 }
 
 /* Footer Section Styles */
-.footer-section {
-  background-color: #333;
+/* Home.css */
+
+.footer {
+  background-color: #4267B2;
   padding: 20px 0;
-  text-align: center;
+  color: white;
 }
 
-.footer-section p {
-  font-size: 14px;
-  color: #FFF;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info,
+.footer-contact {
+  flex-basis: 50%;
+}
+
+.footer-info h3,
+.footer-contact h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-info p,
+.footer-contact p {
   margin: 0;
 }
+
+.footer-text {
+  margin-top: 10px;
+  text-align: center;
+  color: #4267B2;
+}
+

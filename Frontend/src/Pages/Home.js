@@ -7,13 +7,12 @@ export default function Home() {
   return (
     <div className="home-container">
       <nav className="nav">
-          <div className="left-section">
-            <a href="/" className="site-title">MedWin Care</a>
-            <a href="/HomeDoctor" className="nav-link">Our Doctors</a>
-            <a href="/BookAppointments" className="nav-link">Appointment</a>
-            <a href="/PatientRegistration" className="nav-link">Register</a>
-            <a href="/Patientlogin" className="nav-link">Login</a>
-          
+        <div className="left-section">
+          <a href="/" className="site-title">MedWin Care</a>
+          <a href="/HomeDoctor" className="nav-link">Our Doctors</a>
+          <a href="/BookAppointments" className="nav-link">Appointment</a>
+          <a href="/PatientRegistration" className="nav-link">Register</a>
+          <a href="/Patientlogin" className="nav-link">Login</a>
         </div>
       </nav>
       <header className="hero-section">
@@ -47,7 +46,7 @@ export default function Home() {
           <div className="testimonial">
             <div className="quote">
               <i className="fas fa-quote-left"></i>
-              <p>MedWin Care has made managing my appointments so convenient. I can easily find and book appointments with doctors in my area.</p>
+              <h3>MedWin Care has made managing my appointments so convenient. I can easily find and book appointments with doctors in my area.</h3>
             </div>
             <div className="author">
             </div>
@@ -55,13 +54,31 @@ export default function Home() {
           <div className="testimonial">
             <div className="quote">
               <i className="fas fa-quote-left"></i>
-              <p>The doctors on MedWin Care are highly skilled and provide excellent healthcare services. I highly recommend this platform.</p>
+              <h3>The doctors on MedWin Care are highly skilled and provide excellent healthcare services. I highly recommend this platform.</h3>
             </div>
             <div className="author">
             </div>
           </div>
         </div>
       </section>
+      <footer className="footer">
+  <div className="container">
+    <div className="footer-content">
+      <div className="footer-info">
+        <h3>MedWin Care</h3>
+        <p>123 Main Street, City</p>
+        <p>State, Country</p>
       </div>
+      <div className="footer-contact">
+        <h3>Contact Us</h3>
+        <p>Phone: +1 123-456-7890</p>
+        <p>Email: info@medwincare.com</p>
+      </div>
+    </div>
+    <p className="footer-text">&copy; {new Date().getFullYear()} MedWin Care. All rights reserved.</p>
+  </div>
+</footer>
+
+    </div>
   );
 }

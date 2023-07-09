@@ -2,12 +2,14 @@
 using DoctorManagement.Interface;
 using DoctorManagement.Services;
 using MedWinCares.Data.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace DoctorManagement.Controllers
 {
+    
     [ApiController]
     [Route("api/doctors")]
     public class DoctorController : ControllerBase
@@ -83,6 +85,7 @@ namespace DoctorManagement.Controllers
             IEnumerable<DoctorPatientDTO> doctorPatientDTOs = await _doctorService.GetAllDoctorsWithPatientsAsync();
             return Ok(doctorPatientDTOs);
         }
+
         [HttpPost("{id}/activation")]
         public async Task<IActionResult> ActivateDoctor(int id, [FromBody] DoctorwithActiveDTO DoctorwithActiveDTO)
         {

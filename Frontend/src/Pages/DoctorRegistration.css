@@ -1,0 +1,89 @@
+Container for the DoctorRegistration component
+.doctor-registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  /* Card styling */
+  .doctor-registration-card {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card title styling */
+  .doctor-registration-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .doctor-registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form input styling */
+  .doctor-registration-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Form label styling */
+  .doctor-registration-label {
+    font-weight: bold;
+  }
+  
+  /* Form button container */
+  .doctor-registration-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  /* Form buttons */
+  .doctor-registration-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .doctor-registration-button:hover {
+    background-color: #45a049;
+  }
+  
+  .doctor-registration-delete-button {
+    background-color: #f44336;
+  }
+  
+  .doctor-registration-delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Status buttons */
+  .doctor-registration-status-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .doctor-registration-status-button:hover {
+    background-color: #1976d2;
+  }
+  
